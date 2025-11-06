@@ -1,3 +1,26 @@
+/* ============================================================
+   Project: Stillness & Shenanigans
+   Author: Andrea Hatch
+   Role: Designer | Developer | Chaos Coordinator
+   File: style2.css
+   Version: 1.0
+   Last Updated: November 5, 2025
+   ------------------------------------------------------------
+   Description:
+   Main stylesheet for the Stillness & Shenanigans website.
+   Includes base typography, layout, navigation, and card styles.
+
+   Notes:
+   • Keep this synced with style_backup.css
+   • Commit after every major change
+   • Check image paths (case-sensitive on GitHub)
+   • Test mobile layout with Chrome DevTools before pushing live
+   • Drink coffee, then code responsibly ☕
+
+   ============================================================ */
+
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -87,6 +110,7 @@ h3 {
     font-family: 'Montserrat';
     font-weight: 400;
     text-align: justify;
+    margin: 20px;
 
 }
 
@@ -133,7 +157,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("Images/logocircle.png") no-repeat center center;
+    background: url("images/logocircle.png") no-repeat center center;
     background-size: clamp(220px, 60vmin, 600px);
     opacity: 0;
     animation: fadeInLogo 2.5s ease forwards;
